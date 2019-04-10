@@ -76,7 +76,7 @@ public class Rectangle {
         }
 
     }
-
+//EM CHẲNG NGHĨ ĐƯỢC CÁCH NÀO KHÁC NGOÀI CÁCH TRẺ TRÂU NÀY =(((
 
 
     public static void main(String[] args) {
