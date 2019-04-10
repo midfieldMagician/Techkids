@@ -84,16 +84,16 @@ public class Rectangle {
         Rectangle rect1 = new Rectangle(0, 0, 5, 5);
         Rectangle rect2 = new Rectangle(3, 3, 5, 5);
         Rectangle rect3 = new Rectangle(6, 6, 5, 5);
-        Rectangle rect4 = new Rectangle(7, 5, 3, 12);
-//        System.out.println(rect1.intersects(rect2) + " " + true);
-//        System.out.println(rect2.intersects(rect3) + " " + true);
-//        System.out.println(rect1.intersects(rect3) + " " + false);
-//        System.out.println(rect2.intersects(rect1) + " " + true);
-//        System.out.println(rect1.intersects(rect2) + " " + true);
-        System.out.println(rect1.intersects(rect4));
-        System.out.println(rect2.intersects(rect4));
-        System.out.println(rect3.intersects(rect4));
-        System.out.println(rect4.intersects(rect4));
+        //Rectangle rect4 = new Rectangle(7, 5, 3, 12);
+       System.out.println(rect1.intersects(rect2) + " " + true);
+       System.out.println(rect2.intersects(rect3) + " " + true);
+       System.out.println(rect1.intersects(rect3) + " " + false);
+       System.out.println(rect2.intersects(rect1) + " " + true);
+       System.out.println(rect1.intersects(rect2) + " " + true);
+//         System.out.println(rect1.intersects(rect4));
+//         System.out.println(rect2.intersects(rect4));
+//         System.out.println(rect3.intersects(rect4));
+//         System.out.println(rect4.intersects(rect4));
         // the result must be:
         // true true
         // true true
